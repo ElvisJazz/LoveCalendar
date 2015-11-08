@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{25777F3A-1EE8-4F91-96AE-77901D8DECA1}</ProjectGuid>
+    <RootNamespace>LoveCalendar</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>Winmm.lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="busy.ico" />
+    <None Include="C:\Users\Jazz\Desktop\love.ico">
+      <DeploymentContent>false</DeploymentContent>
+    </None>
+    <None Include="cat.bmp" />
+    <None Include="cat0.bmp" />
+    <None Include="cat1.bmp" />
+    <None Include="cat10.bmp" />
+    <None Include="cat11.bmp" />
+    <None Include="cat12.bmp" />
+    <None Include="cat2.bmp" />
+    <None Include="cat3.bmp" />
+    <None Include="cat4.bmp" />
+    <None Include="cat5.bmp" />
+    <None Include="cat6.bmp" />
+    <None Include="cat7.bmp" />
+    <None Include="cat8.bmp" />
+    <None Include="cat9.bmp" />
+    <None Include="HWVGPEP41%PLDK}RG$M3)ZY.gif" />
+    <None Include="I)1ZERV{}]_EQ4MS6YNA48V.gif" />
+    <None Include="love.bmp" />
+    <None Include="love.ico" />
+    <None Include="loveDay.ico" />
+    <None Include="ML%40E2D36J~9]F%ZXF)0AG{O.gif" />
+    <None Include="O[B33OXXC_]5$S1PLWT]A5B.gif" />
+    <None Include="P}X0E4BJBXTYHWECBR{{KAT.gif" />
+    <None Include="Q01X3HAHM022MYKNX6Y_1VL.gif" />
+    <None Include="ReadMe.txt" />
+    <None Include="res\3$D6NOO1I$X%400QPM25WA{LH.gif" />
+    <None Include="res\3WNT6N33ZE52Z}FIZ2P0B0R.gif" />
+    <None Include="res\6KXO3DGR46A00BD}~YXM6UF.gif" />
+    <None Include="res\6SWR1JGG573~Z(OZNCW9[L9.gif" />
+    <None Include="res\9XH}Z%5`%RBK{JQ9M`B5RSL.gif" />
+    <None Include="res\cursor1.cur" />
+    <None Include="res\DAHVSC$1F)0Q7U}JJKW1(OH.gif" />
+    <None Include="res\gif1.bin" />
+    <None Include="res\gif16.bin" />
+    <None Include="res\gif17.bin" />
+    <None Include="res\gif2.bin" />
+    <None Include="res\gif3.bin" />
+    <None Include="res\gif4.bin" />
+    <None Include="res\HWVGPEP41%PLDK}RG$M3)ZY.gif" />
+    <None Include="res\I)1ZERV{}]_EQ4MS6YNA48V.gif" />
+    <None Include="res\LoveCalendar.ico" />
+    <None Include="res\LoveCalendar.rc2" />
+    <None Include="res\ML%40E2D36J~9]F%ZXF)0AG{O.gif" />
+    <None Include="res\O[B33OXXC_]5$S1PLWT]A5B.gif" />
+    <None Include="res\P}X0E4BJBXTYHWECBR{{KAT.gif" />
+    <None Include="res\Q01X3HAHM022MYKNX6Y_1VL.gif" />
+    <None Include="未命名.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CSpreadSheet.h" />
+    <ClInclude Include="FileOperation.h" />
+    <ClInclude Include="FindMusic.h" />
+    <ClInclude Include="FlashDlg.h" />
+    <ClInclude Include="GifDlg.h" />
+    <ClInclude Include="LoveCalendar.h" />
+    <ClInclude Include="LoveCalendarDlg.h" />
+    <ClInclude Include="PictureEx.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="shockwaveflash1.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CSpreadSheet.cpp" />
+    <ClCompile Include="FileOperation.cpp" />
+    <ClCompile Include="FindMusic.cpp" />
+    <ClCompile Include="FlashDlg.cpp" />
+    <ClCompile Include="GifDlg.cpp" />
+    <ClCompile Include="LoveCalendar.cpp" />
+    <ClCompile Include="LoveCalendarDlg.cpp" />
+    <ClCompile Include="PictureEx.cpp" />
+    <ClCompile Include="shockwaveflash1.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="LoveCalendar.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="LoveCalendar.rc" _x007B_D27CDB6E-AE6D-11CF-96B8-444553540000_x007D_="CShockwaveflash1" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

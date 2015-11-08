@@ -1,0 +1,236 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="res\LoveCalendar.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\LoveCalendar.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="cat.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="love.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="C:\Users\Jazz\Desktop\love.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\cursor1.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="cat1.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="cat2.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="cat3.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="cat4.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="cat5.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="cat6.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="cat7.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="cat8.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="cat9.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="cat10.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="cat11.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="cat12.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="cat0.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="busy.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="love.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="loveDay.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\gif1.bin">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\gif2.bin">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\gif3.bin">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="O[B33OXXC_]5$S1PLWT]A5B.gif">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="HWVGPEP41%PLDK}RG$M3)ZY.gif">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="I)1ZERV{}]_EQ4MS6YNA48V.gif">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="ML%40E2D36J~9]F%ZXF)0AG{O.gif">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="P}X0E4BJBXTYHWECBR{{KAT.gif">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="Q01X3HAHM022MYKNX6Y_1VL.gif">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\gif4.bin">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\HWVGPEP41%PLDK}RG$M3)ZY.gif">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\I)1ZERV{}]_EQ4MS6YNA48V.gif">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\ML%40E2D36J~9]F%ZXF)0AG{O.gif">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\O[B33OXXC_]5$S1PLWT]A5B.gif">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\P}X0E4BJBXTYHWECBR{{KAT.gif">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Q01X3HAHM022MYKNX6Y_1VL.gif">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="未命名.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\3$D6NOO1I$X%400QPM25WA{LH.gif">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\3WNT6N33ZE52Z}FIZ2P0B0R.gif">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\6KXO3DGR46A00BD}~YXM6UF.gif">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\6SWR1JGG573~Z(OZNCW9[L9.gif">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\9XH}Z%5`%RBK{JQ9M`B5RSL.gif">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\gif16.bin">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\DAHVSC$1F)0Q7U}JJKW1(OH.gif">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\gif17.bin">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="LoveCalendar.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LoveCalendarDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FlashDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="shockwaveflash1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FindMusic.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FileOperation.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CSpreadSheet.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PictureEx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GifDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="LoveCalendar.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LoveCalendarDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FlashDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="shockwaveflash1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FindMusic.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FileOperation.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CSpreadSheet.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PictureEx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GifDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="LoveCalendar.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
